@@ -57,7 +57,7 @@ Now you have set up your **remote repository**!!
 
 4. **Clone remote repository to local machine (laptop/desktop)**
 
-Inside the repository clikc the **<>Code** button and select **Open with GitHub Desktop** in the drop down menu. 
+Inside the repository click the **<>Code** button and select **Open with GitHub Desktop** in the drop down menu. 
 
 ![Clone remote to local](./clone_to_local.png)
 
