@@ -84,3 +84,16 @@ These prompts enable changes made to the folder (adding new files) or files (new
 ![Files on local](./files_on_local.png)
 ![Commit](./commit.png)
 </center>
+
+\newpage
+
+7. **Push** and **pull** changes to or from GitHub 
+
+<center>
+
+![Push](./push.png)
+
+![Commit remote](./commit_remote.png)
+![Committed remote](./committed_remote.png)
+
+</center>
