@@ -97,3 +97,14 @@ These prompts enable changes made to the folder (adding new files) or files (new
 ![Committed remote](./committed_remote.png)
 
 </center>
+
+\newpage
+
+<center>
+
+![Pull to local](./pull_to_local.png)
+
+
+![Commit changes on local](./local.png)
+</center>
+
