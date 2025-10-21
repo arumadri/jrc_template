@@ -78,33 +78,30 @@ This will initialize the **commit** and **push** prompt in GitHub Desktop to com
 
 These prompts enable changes made to the folder (adding new files) or files (new edits to code) on the **local** machine to be **committed and pushed** to the **remote** for tracking and hence **version control**.
 
-**
 <center>
 
 Here I add new files to the **local** folder.
 
 ![Files on local](./files_on_local.png)
+\newpage 
+
 These changes appear on **GitHub Desktop** ready to be **committed** and **pushed** to the **remote**.
 
 ![Commit](./commit.png)
 </center>
 
-\newpage
-
-7. **Push** and **pull** changes to or from GitHub 
+7. **Push** and **pull** changes to or from **GitHub**. After **committing** the changes, they are ready to be **pushed**. 
 
 <center>
 
-After **committing** the changes, they are ready to be **pushed**. 
-![Push](./push.png)
-It is also possible to make changes on the **remote** and **pull** them to the **local**. This can also happen when the project has multiple contributors to the code. Changes made by one person to the remote can be pulled to the local repository of another person to update their code to the latest version. 
 
-Here I make some changes on the **remote** and **commit** them. 
+![Push](./push.png)
+\newpage 
+
+8. Changes on the **remote** can be **pulled** to the **local**. This is especially useful in projects with multiple contributors to the code. Changes made by one person to the remote can be pulled to the local repository of another person to update their code to the latest version. Here I make some changes on the README file on **remote**, **commit** then **pull** them to **local** . 
 
 ![Commit and pull from remote](./commit_remote.png)
-Changes made and committed to the **remote**.
 ![Committed remote](./committed_remote.png)
-
 </center>
 
 \newpage
@@ -114,8 +111,10 @@ Changes made and committed to the **remote**.
 Within **Github Desktop**, these changes will be reflected and a prompt to pull them to your **local** will appear when the application is opened while connected to the internet. 
 
 ![Pull to local](./pull_to_local.png)
-
-Changes made on the **remote** now **pulled** to the **local** as seen in **RStudio**. 
+<center>
+Changes made on the **remote** now **pulled** to the **local** as seen in **RStudio** here. 
+<center>
 ![Commit changes on local](./local.png)
 </center>
 
+We hope you find this helpful and start using version control to keep track of your code changes. Do not hesitate to conduct [**JRC**](mailto:JRC.mgz@erasmusmc.nl) with any queries relating to this code. Good luck!
