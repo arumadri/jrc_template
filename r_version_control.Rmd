@@ -81,7 +81,11 @@ These prompts enable changes made to the folder (adding new files) or files (new
 **
 <center>
 
+Here I add new files to the **local** folder.
+
 ![Files on local](./files_on_local.png)
+These changes appear on **GitHub Desktop** ready to be **committed** and **pushed** to the **remote**.
+
 ![Commit](./commit.png)
 </center>
 
@@ -91,9 +95,14 @@ These prompts enable changes made to the folder (adding new files) or files (new
 
 <center>
 
+After **committing** the changes, they are ready to be **pushed**. 
 ![Push](./push.png)
+It is also possible to make changes on the **remote** and **pull** them to the **local**. This can also happen when the project has multiple contributors to the code. Changes made by one person to the remote can be pulled to the local repository of another person to update their code to the latest version. 
 
-![Commit remote](./commit_remote.png)
+Here I make some changes on the **remote** and **commit** them. 
+
+![Commit and pull from remote](./commit_remote.png)
+Changes made and committed to the **remote**.
 ![Committed remote](./committed_remote.png)
 
 </center>
@@ -102,9 +111,11 @@ These prompts enable changes made to the folder (adding new files) or files (new
 
 <center>
 
+Within **Github Desktop**, these changes will be reflected and a prompt to pull them to your **local** will appear when the application is opened while connected to the internet. 
+
 ![Pull to local](./pull_to_local.png)
 
-
+Changes made on the **remote** now **pulled** to the **local** as seen in **RStudio**. 
 ![Commit changes on local](./local.png)
 </center>
 
