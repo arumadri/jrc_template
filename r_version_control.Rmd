@@ -7,7 +7,7 @@ output: pdf_document
 
 ## R Version Control with Git/GitHub
 
-Git/GitHub enables continuous software/code development by tracking code changes to the **initial commit**, tracking who made the changes and enabling code collaboration. Here I will go through the basics on how to step-up Git/GitHub for version control with R/RStudio. 
+Git/GitHub enables continuous software/code development by tracking code changes to the **initial commit**, tracking who made the changes and enabling code collaboration. Here I will go through the basics on how to step-up **Git/GitHub** for version control with **R/RStudio**. Although the focus is on R/RStudio, the same procedure can be followed by those who use other softwares for data analysis e.g **Python**, **LaTex**, **Julia** etc. 
 
 ### Required programs 
 
