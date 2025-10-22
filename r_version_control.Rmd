@@ -42,7 +42,7 @@ To start off, ensure you have the following programs installed:
 
 ![GitHub account setup](./github_account.png)
 
-\vspace{3cm}
+\vspace{1cm}
 
 2. **Create a Repository**
 After signing in, click the **+** button to create a new repository:
@@ -53,16 +53,14 @@ After signing in, click the **+** button to create a new repository:
     
 ![GitHub new repository details](./repository_details.png)   
 
-Now you have set up your **remote repository**!! 
+Click **Create repository**. \textcolor{red}{Now you have set up your \textbf{remote repository!!}}
 
-\newpage
 
 4. **Clone remote repository to local machine (laptop/desktop)**
 
-Inside the repository click the **<>Code** button and select **Open with GitHub Desktop** in the drop down menu. 
-
+Inside the repository click the **<>Code** button **>Local** **>GitHub CLI** and select **Open with GitHub Desktop** in the drop down menu. 
+<center>
 ![Clone remote to local](./clone_to_local.png)
-
 \newpage
 
 5. **Select path for local repository**
@@ -85,24 +83,26 @@ These prompts enable changes made to the folder (adding new files) or files (new
 Here I add new files to the **local** folder.
 
 ![Files on local](./files_on_local.png)
-\newpage 
-
 These changes appear on **GitHub Desktop** ready to be **committed** and **pushed** to the **remote**.
-
 ![Commit](./commit.png)
 </center>
 
+\newpage
+
 7. **Push** and **pull** changes to or from **GitHub**. After **committing** the changes, they are ready to be **pushed**. 
 
-<center>
-
-
 ![Push](./push.png)
-\newpage 
+</center>
 
-8. Changes on the **remote** can be **pulled** to the **local**. This is especially useful in projects with multiple contributors to the code. Changes made by one person to the remote can be pulled to the local repository of another person to update their code to the latest version. Here I make some changes on the README file on **remote**, **commit** then **pull** them to **local** . 
+8. Changes on the **remote** can be **pulled** to the **local**. This is especially useful in projects with multiple contributors to the code. Changes made by one person to the remote can be pulled to the local repository of another person to update their code to the latest version. Here I make some changes (**adding JRC contact details**) to the README file on **remote**, **commit** then **pull** them to **local** . 
 
 ![Commit and pull from remote](./commit_remote.png)
+\newpage
+The new changes (**JRC contact details**) are now added to the **remote repository** but are not yet made on the **local**. 
+
+The next step is **pulling** these changes to the **local**.
+
+<center>
 ![Committed remote](./committed_remote.png)
 </center>
 
@@ -110,13 +110,17 @@ These changes appear on **GitHub Desktop** ready to be **committed** and **pushe
 
 <center>
 
-Within **Github Desktop**, these changes will be reflected and a prompt to pull them to your **local** will appear when the application is opened while connected to the internet. 
+9. Within **Github Desktop**, these changes will be reflected and a prompt to **pull origin** i.e from **remote** to your **local** will appear when the application is opened while connected to the internet. 
 
 ![Pull to local](./pull_to_local.png)
 <center>
-Changes made on the **remote** now **pulled** to the **local** as seen in **RStudio** here. 
+
+10. Changes made on the **remote** now **pulled** to the **local** as seen in **RStudio** here. 
 <center>
 ![Commit changes on local](./local.png)
 </center>
+\vspace{3cm}
 
-We hope you find this helpful and start using version control to keep track of your code changes. Do not hesitate to contact the [**JRC**](mailto:JRC.mgz@erasmusmc.nl) with any queries relating to this code. Good luck!
+**Support** 
+
+We hope you find this helpful and start using version control to keep track of your code changes. Do not hesitate to contact the [**JRC**](mailto:JRC.mgz@erasmusmc.nl) for any support or queries relating to these steps. Good luck!
