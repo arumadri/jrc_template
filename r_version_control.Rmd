@@ -7,7 +7,9 @@ output: pdf_document
 
 ## R Version Control with Git/GitHub
 
-Git/GitHub enables continuous software/code development by tracking code changes to the **initial commit**, tracking who made the changes and enabling code collaboration. Here I will go through the basics on how to step-up **Git/GitHub** for version control with **R/RStudio**. Although the focus is on R/RStudio, the same procedure can be followed by those who use other softwares for data analysis e.g **Python**, **LaTex**, **Julia** etc. 
+Git/GitHub enables continuous software/code development by tracking code changes (**version control**) to the **initial commit**, tracking who made the changes and enabling code collaboration. Version control also helps to keep your code safe in case the laptop or hard disk with your code is lost or damaged. 
+
+Here I will go through the basics on how to step-up **Git/GitHub** for version control with **R/RStudio**. Although the focus is on R/RStudio, the same procedure can be followed by those who use other softwares for data analysis e.g **Python**, **LaTex**, **Julia** etc. 
 
 ### Required programs 
 
@@ -117,4 +119,4 @@ Changes made on the **remote** now **pulled** to the **local** as seen in **RStu
 ![Commit changes on local](./local.png)
 </center>
 
-We hope you find this helpful and start using version control to keep track of your code changes. Do not hesitate to conduct [**JRC**](mailto:JRC.mgz@erasmusmc.nl) with any queries relating to this code. Good luck!
+We hope you find this helpful and start using version control to keep track of your code changes. Do not hesitate to contact the [**JRC**](mailto:JRC.mgz@erasmusmc.nl) with any queries relating to this code. Good luck!
