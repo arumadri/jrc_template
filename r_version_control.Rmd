@@ -1,13 +1,23 @@
 ---
 title: "R Version Control"
 author: "Vincent Arumadri"
-date: "2025-07-08"
+date: "2025-11-10"
 output: pdf_document
 ---
 
 ## R Version Control with Git/GitHub
 
-Git/GitHub enables continuous software/code development by tracking code changes (**version control**) to the **initial commit**, tracking who made the changes and enabling code collaboration. Version control also helps to keep your code safe in case the laptop or hard disk with your code is lost or damaged. 
+### Why you need to start using Git/GitHub?
+Git/GitHub enables continuous software/code development by tracking code changes (**version control**) to the **initial commit**, tracking who made the changes and enabling code collaboration. Version control also helps to keep your code safe in case your laptop or hard disk with your code is lost or damaged. 
+
+### Data privacy on GitHub
+Project repositories on GitHub can either be **private or public**. A **public repository** is visible to anyone who visits that repository while a **private repository** is only visible to the user and to their invited collaborators (for private repositories where collaboration is needed).
+
+**1. Care must be taken by the user to ensure that only approved/final code and data are added to a public repository to avoid breach of data privacy rules.**
+
+**2. Care must be taken by the user to ensure that before making a private repository public, all data and code do not breach any data privacy rules.**
+
+### Necessary steps
 
 Here I will go through the basics on how to step-up **Git/GitHub** for version control with **R/RStudio**. Although the focus is on R/RStudio, the same procedure can be followed by those who use other softwares for data analysis e.g **Python**, **LaTex**, **Julia** etc. 
 
@@ -16,7 +26,10 @@ Here I will go through the basics on how to step-up **Git/GitHub** for version c
 To start off, ensure you have the following programs installed:
 
 1. **Git** – the base program for tracking code changes.  
-   - **Windows**: You can [download Git here](https://git-scm.com/downloads). Double-click the downloaded .exe file to start the installation process.  
+   - **Windows**: You can **[download Git here](https://git-scm.com/install/windows)**. Double-click the downloaded .exe file to start the installation process. 
+   To verify Git installation on your machine, **[follow the steps here](https://stackoverflow.com/questions/67710231/how-to-tell-if-i-have-git-on-my-windows-machine)**.
+**NB: only available for Windows x64 and ARM64**
+
    - **macOS**: First you need to install **Homebrew**. Copy and paste the Homebrew download link from (https://brew.sh/) to the Terminal and run.
    
    If you already have Homebrew installed, open Terminal and type:
@@ -34,11 +47,11 @@ To start off, ensure you have the following programs installed:
 4. **GitHub Desktop** – for version control and collaboration
    - **Windows and macOS**:  You can [download GitHub Desktop here](https://desktop.github.com/download/)
 
-\newpage
-
 ### Getting started 
 
 1. **Sign up for GitHub** – Got to [GitHub](https://github.com/) and create a free account:
+
+**NB: Use a personal email account to sign up if you want to have access to your repositories in the future when you leave a given workplace. Using a work email account to sign up may be necessary for some projects, however, be aware that you may lose access to your repositories in the future when you leave that workplace.**
 
 ![GitHub account setup](./github_account.png)
 
@@ -50,7 +63,9 @@ After signing in, click the **+** button to create a new repository:
 ![GitHub new repository](./new_repository.png)
 \newpage
 3. **Fill in the repository details** (name, description, public/private, etc.) and click Create repository:
-    
+
+**NB: It's essential to check "Add a README file during the step up of your repository.**
+
 ![GitHub new repository details](./repository_details.png)   
 
 Click **Create repository**. \textcolor{red}{Now you have set up your \textbf{remote repository!!}}
@@ -64,6 +79,8 @@ Inside the repository click the **<>Code** button **>Local** **>GitHub CLI** and
 \newpage
 
 5. **Select path for local repository**
+
+**NB: Care must be taken to ensure that a local path for a public repository does not include any data that should not be shared publicly. Local paths should be to new folders or current folders where no data or files will be shared publicly accidentally.**
 <center>
 
 ![Path on local](./path_on_local.png)
